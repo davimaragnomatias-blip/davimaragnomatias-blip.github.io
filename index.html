@@ -1,31 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Davi Maragno | Desenvolvedor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        .card {
+            background-color: #1e293b;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #020617;
+        }
+
+        button {
+            background-color: #38bdf8;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0ea5e9;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; text-align: center; margin-top: 50px;">
 
+<body>
+
+<header>
     <h1>👨‍💻 Davi Maragno Matias</h1>
-    <p><strong>Estudante de Engenharia de Software</strong></p>
+    <p>Estudante de Engenharia de Software</p>
+</header>
 
-    <hr style="width: 60%;">
-
+<section>
     <h2>🚀 Sobre mim</h2>
-    <p>
-        Estou no início da minha jornada como desenvolvedor.
-        Atualmente estudando Python, algoritmos e lógica de programação.
-        Focado em evolução constante e construção de projetos práticos.
-    </p>
+    <div class="card">
+        <p>
+            Estou no início da minha jornada como desenvolvedor.
+            Atualmente estudando Python, algoritmos e lógica de programação.
+            Focado em evolução constante e construção de projetos práticos.
+        </p>
+    </div>
+</section>
 
+<section>
     <h2>📂 Projetos</h2>
-    <p>🧮 Calculadora em Python</p>
+    <div class="card">
+        <p>🧮 Calculadora em Python</p>
+        <a href="https://github.com/davimaragnomatias-blip/calculadora-python" target="_blank">
+            <button>Ver no GitHub</button>
+        </a>
+    </div>
+</section>
 
-    <h2>📫 Contato</h2>
-    <p>Email: davimaragnomatias02@gmail.com</p>
+<section>
+    <h2>🧑‍💼 LinkedIn</h2>
+    <div class="card">
+        <p>Conecte-se comigo:</p>
+        <a href="https://www.linkedin.com/in/davi-maragno-matias-9054333ab/" target="_blank">
+            Ver LinkedIn
+        </a>
+    </div>
+</section>
 
-    <br><br>
+<footer>
     <p>© 2026 Davi Maragno Matias</p>
+</footer>
 
 </body>
 </html>
